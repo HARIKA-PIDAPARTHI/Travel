@@ -1,0 +1,199 @@
+.firstpage {
+    margin: 0px;
+}
+
+.fcontainer {
+    background-image: url("https://guides.williams.edu/files/2016/06/travel-04.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+}
+
+@media (min-width: 576px) {
+    .fcontainer {
+        padding-top: 90px;
+    }
+
+    .button-1 {
+        font-size: 30px;
+    }
+
+    .para {
+        font-size: 30px;
+    }
+}
+
+.para {
+    margin: 15px;
+    font-family: Oswald;
+}
+
+.button-1 {
+    border-width: 0px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.scontainer {
+    background-image: url("https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.small-heading {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.transparent-button {
+    background-color: transparent;
+    border-width: 0px;
+}
+
+.summer-container {
+    background-image: url("https://images.pexels.com/photos/262325/pexels-photo-262325.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    padding: 30px;
+    height: 100vh;
+    background-position: center;
+}
+
+.card {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.medium-heading {
+    font-size: 40px;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.winter-container {
+    background-image: url("https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    padding: 30px;
+    height: 100vh;
+    background-position: center;
+}
+
+.spring-container {
+    background-image: url("https://images.pexels.com/photos/371662/pexels-photo-371662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    padding: 30px;
+    height: 100vh;
+    background-position: center;
+}
+
+.autumn-container {
+    background-image: url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    padding: 30px;
+    height: 100vh;
+    background-position: center;
+}
+
+.adventure-container {
+    background-image: url("https://images.pexels.com/photos/262325/pexels-photo-262325.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    padding: 30px;
+    height: 100vh;
+    background-position: center;
+}
+
+.culture-container {
+    background-image: url("https://images.pexels.com/photos/2565708/pexels-photo-2565708.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    padding: 30px;
+    height: 100vh;
+    background-position: center;
+}
+
+.family-container {
+    background-image: url("https://images.pexels.com/photos/39691/family-pier-man-woman-39691.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    padding: 30px;
+    height: 100vh;
+    background-position: center;
+}
+
+.solo-container {
+    background-image: url("https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    padding: 30px;
+    height: 100vh;
+    background-position: center;
+}
+
+
+.flight {
+    background-image: url("https://images.pexels.com/photos/255514/pexels-photo-255514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    padding: 30px;
+    height: 100vh;
+    background-position: center;
+}
+
+.hotel {
+    background-image: url("https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    padding: 30px;
+    height: 100vh;
+    background-position: center;
+}
+
+.hotel-form {
+    background-color: white;
+    margin: 10px;
+    padding: 80px;
+}
+
+.flight-form {
+    background-color: white;
+    margin: 10px;
+    padding: 80px;
+}
+
+.small-heading2 {
+    font-size: 40px;
+}
+
+.color {
+    color: black;
+    width: 5px;
+}
+
+@media (min-width: 768px) {
+    .hotel {
+        font-size: 30px;
+    }
+}
+
+.heading {
+    font-size: 50px;
+}
+
+.heading2 {
+    font-size: 50px;
+    color: white;
+}
